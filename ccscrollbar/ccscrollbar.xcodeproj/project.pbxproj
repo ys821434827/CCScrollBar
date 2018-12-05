@@ -15,7 +15,7 @@
 		9975EFCA21B7A26D002127F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9975EFC921B7A26D002127F5 /* main.m */; };
 		9975EFD421B7A26D002127F5 /* ccscrollbarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9975EFD321B7A26D002127F5 /* ccscrollbarTests.m */; };
 		9975EFDF21B7A26E002127F5 /* ccscrollbarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9975EFDE21B7A26E002127F5 /* ccscrollbarUITests.m */; };
-		9975EFEE21B7A29A002127F5 /* HeadScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9975EFEC21B7A29A002127F5 /* HeadScrollView.m */; };
+		9975EFF221B7D2A2002127F5 /* HeadScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9975EFF121B7D2A2002127F5 /* HeadScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		9975EFDA21B7A26D002127F5 /* ccscrollbarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ccscrollbarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9975EFDE21B7A26E002127F5 /* ccscrollbarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ccscrollbarUITests.m; sourceTree = "<group>"; };
 		9975EFE021B7A26E002127F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9975EFEC21B7A29A002127F5 /* HeadScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HeadScrollView.m; path = ../../HeadScrollView.m; sourceTree = "<group>"; };
-		9975EFED21B7A29A002127F5 /* HeadScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HeadScrollView.h; path = ../../HeadScrollView.h; sourceTree = "<group>"; };
+		9975EFF021B7D2A2002127F5 /* HeadScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadScrollView.h; sourceTree = "<group>"; };
+		9975EFF121B7D2A2002127F5 /* HeadScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +104,7 @@
 		9975EFB921B7A264002127F5 /* ccscrollbar */ = {
 			isa = PBXGroup;
 			children = (
-				9975EFED21B7A29A002127F5 /* HeadScrollView.h */,
-				9975EFEC21B7A29A002127F5 /* HeadScrollView.m */,
+				9975EFEF21B7D2A2002127F5 /* Classes */,
 				9975EFBA21B7A264002127F5 /* AppDelegate.h */,
 				9975EFBB21B7A264002127F5 /* AppDelegate.m */,
 				9975EFBD21B7A264002127F5 /* ViewController.h */,
@@ -135,6 +134,16 @@
 				9975EFE021B7A26E002127F5 /* Info.plist */,
 			);
 			path = ccscrollbarUITests;
+			sourceTree = "<group>";
+		};
+		9975EFEF21B7D2A2002127F5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9975EFF021B7D2A2002127F5 /* HeadScrollView.h */,
+				9975EFF121B7D2A2002127F5 /* HeadScrollView.m */,
+			);
+			name = Classes;
+			path = ../../Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,7 +279,7 @@
 				9975EFBF21B7A264002127F5 /* ViewController.m in Sources */,
 				9975EFCA21B7A26D002127F5 /* main.m in Sources */,
 				9975EFBC21B7A264002127F5 /* AppDelegate.m in Sources */,
-				9975EFEE21B7A29A002127F5 /* HeadScrollView.m in Sources */,
+				9975EFF221B7D2A2002127F5 /* HeadScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
